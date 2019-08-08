@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kaydol">
+
+
+    <include layout="@layout/actionbar_app" android:id="@+id/kaydolactionbar"/>
+
+    <TextView
+        android:id="@+id/newAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newaccount"
+        android:layout_below="@+id/kaydolactionbar"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="25sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kad"
+        android:layout_below="@+id/newAccount"
+        android:layout_marginTop="20dp" 
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/kadı"
+        />
+    <EditText
+        android:id="@+id/alankad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kadı"
+        android:hint="@string/kad"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_purple"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alankad"
+        android:hint="@string/email"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_purple"
+        android:id="@+id/mail"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mail"
+        android:hint="@string/parola"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_purple"
+        android:inputType="textPassword"
+        android:id="@+id/parolaid"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/kaydol"
+        android:textSize="25sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="35dp"
+        android:background="@android:color/holo_purple"
+        android:id="@+id/buttonKayıt"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+

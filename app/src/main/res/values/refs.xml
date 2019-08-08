@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="anasyfa">@drawable/peng</drawable>
+    <drawable name="anasyf">@drawable/peng</drawable>
+    <drawable name="ansyfa">@drawable/anasyf</drawable>
+</resources>

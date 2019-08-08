@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">week1</string>
+    <string name="login">GİRİŞ YAP</string>
+    <string name="kaydol">KAYIT OL</string>
+    <string name="loginsayfa">KULLANICI ADI:</string>
+    <string name="şifre">ŞİFRE</string>
+    <string name="giriş">GİRİŞ</string>
+    <string name="newaccount">YENİ HESAP OLUŞTUR</string>
+    <string name="kad">Kullanıcı Adı:</string>
+    <string name="email">Email:</string>
+    <string name="kullanıcıadı">Kullanıcı Adı:</string>
+    <string name="parola">Parola:</string>
+    <string name="youraccountlogin">Hesabınızla Giriş Yapınız</string>
+
+
+
+</resources>
